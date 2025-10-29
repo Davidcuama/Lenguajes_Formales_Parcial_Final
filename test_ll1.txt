@@ -1,0 +1,6 @@
+# Archivo de prueba 1: Gramática solo LL(1)
+# Esta gramática es LL(1) pero NO SLR(1) - tiene conflictos shift-reduce
+3
+S -> A
+A -> a A
+A -> e

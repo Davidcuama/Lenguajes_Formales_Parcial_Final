@@ -1,0 +1,6 @@
+# Archivo de prueba 2: Gramática SLR(1) simple
+# Esta gramática es SLR(1) pero no LL(1)
+3
+S -> A
+A -> A a
+A -> e

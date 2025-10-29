@@ -1,0 +1,7 @@
+# Archivo de prueba 4: Gramática que realmente no es ni LL(1) ni SLR(1)
+# Esta gramática tiene conflictos shift-reduce
+3
+S -> A
+A -> a A a
+A -> a A
+A -> e

@@ -1,0 +1,6 @@
+# Archivo de prueba 3: Gramática que es tanto LL(1) como SLR(1)
+# Esta gramática es tanto LL(1) como SLR(1)
+3
+S -> A
+A -> a A
+A -> e

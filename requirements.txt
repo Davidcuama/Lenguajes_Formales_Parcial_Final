@@ -1,0 +1,58 @@
+# Requisitos del Proyecto Final - Compiladores
+# Implementación de Parsers LL(1) y SLR(1)
+
+## Requisitos del Sistema
+- Python 3.6 o superior
+- Sistema operativo: Windows, macOS, o Linux
+- Memoria RAM: Mínimo 4GB recomendado
+- Espacio en disco: 50MB
+
+## Dependencias
+- No se requieren librerías externas
+- Solo se usan módulos estándar de Python:
+  - collections
+  - typing
+  - sys
+
+## Archivos del Proyecto
+- `grammar_parser.py`: Archivo principal con la implementación
+- `test_runner.py`: Script para ejecutar pruebas automáticas
+- `README.md`: Documentación del proyecto
+- `test_*.txt`: Archivos de prueba con diferentes gramáticas
+
+## Instrucciones de Instalación
+1. Asegúrese de tener Python 3.6+ instalado
+2. Descargue todos los archivos del proyecto
+3. No se requiere instalación adicional
+
+## Instrucciones de Uso
+1. Ejecute el programa principal:
+   ```bash
+   python grammar_parser.py
+   ```
+
+2. Ingrese la gramática según el formato especificado
+
+3. El programa determinará automáticamente el tipo de gramática y procederá según corresponda
+
+## Ejecución de Pruebas
+Para ejecutar todas las pruebas automáticamente:
+```bash
+python test_runner.py
+```
+
+## Formato de Entrada
+- Primera línea: número de no terminales (n)
+- Siguientes n líneas: reglas de producción en formato `A -> α β γ`
+- `e` representa la cadena vacía (epsilon)
+- Los no terminales son letras mayúsculas
+- Los terminales son caracteres que no son letras mayúsculas
+
+## Características Implementadas
+✅ Cálculo de conjuntos First y Follow (10%)
+✅ Parser LL(1) (Top-Down) (20%)
+✅ Parser SLR(1) (Bottom-Up) (20%)
+✅ Manejo de entrada y salida según especificaciones
+✅ Código completamente comentado
+✅ Archivos de prueba incluidos
+✅ Documentación completa
